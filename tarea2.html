@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="Css/estilos.css">
 
 </head>
+<body>
 <div class= "cajacompleta">
 <h1>Header one</h1>
 <br />
@@ -46,7 +47,7 @@
 <p>Multi line blockquote with a cite reference.</p>
 <br />
 
-<blockquote> <strong> HTML</strong> &ltblockquote&gt<strong> Element</strong> (or HTML Block Quotation Element) indicates that the enclosed text is an extended quotation. Usually, this is rendered visually by indentation (see Notes for how to change it). A URL for the source of the quotation may be given using the<Strong> cite</Strong> attribute, while a text representation of the source can be given using the &ltcite&gt element.</blockquote>
+<blockquote> <strong> HTML</strong> &lt; blockquote &gt; <strong> Element</strong> (or HTML Block Quotation Element) indicates that the enclosed text is an extended quotation. Usually, this is rendered visually by indentation (see <strong class="cit"> Notes</strong>  for how to change it). A URL for the source of the quotation may be given using the<Strong class="cit"> cite</Strong> attribute, while a text representation of the source can be given using the &lt;cite&gt; element.</blockquote>
 
 <br />
 <cite>Multiple contributor - MDN HTML element reference - blockquote </cite> <br />
@@ -83,9 +84,7 @@
         <td><span>Jane Bloggs</span></td>
         <td>$100B</td>
        <td>With hair like that?! Enoug i said... </td>
-       
  </tr>
- 
 </table>
 <br />
  <h2>Unordered Lists (Nested) </h2>
@@ -96,64 +95,41 @@
     </div>
     <br />          
 <ul>
-    <li><span>List item one
-        
-        <ul>
-                <br />
-            <li><span>List item one
-                    
-                <ul>
-                        <br />
-                    <Li><span>List item one</span></Li>
-                    <br />
+    <li>List item one
+        <ul><span>    
+            <li><span>List item one    
+                <ul>   
+                    <li><span>List item one</span></li>
                     <li><span>List item two</span></li>
-                    <br />
-                    <li><span>List item three</span></li>
-                    <br />
+                    <li><span>List item three</span></li> 
                 <li><span>List item four</span></li>
-                </ul>
-                <br />
+                </ul>  
                 </span>
             </li>
-            <li><span>List item two</span></li>
-            <br />
-            <li><span>List item three</span></li>
-            <br />
+            <li><span>List item two</span></li>        
+            <li><span>List item three</span></li>          
             <li><span>List item four</span></li>
-        </ul>
-        <br /></span>
+        
+        </span></ul>
+       
 </li>
-
 <li><span>List item two</span></li>
-<br />
 <li><span>List item three</span></li>
-<br />
-<li><span>List item four</span></li>
-    
+<li><span>List item four</span></li>   
 </ul>
-<br />
+<br>
 <h2>Ordered List (Nested)</h2>
-<br />
 <ol>
-    <li>List item one
-           
-        <ol>
-                <br />
+    <li>List item one     
+        <ol>      
             <li>List item one</li>
-            <br />
             <li>List item two</li>
-            <br />
             <li>List item three</li>
         </ol>
-        <br />
-    
     </li>
     <li>List item two</li>
-    <br />
     <li>List item three</li>
-    <br />
     <li>List item four</li>
-
 </ol>
 <br />
 <h2>HTML Tags</h2>
@@ -161,16 +137,16 @@
 <h3>Code Tags</h3>
 <br />
 <p>This tag styles blocks of code:</p>
-<div class="textcolor">
-    <p>.post-tittle {</p>
-     <p>   margin: 0 0 5px;</p>
-     <p>  font-weight: bold;</p>
-     <p> font-size: 38px;</p>
-     <p> line-height: 1.2;</p>
-     <p>  /* and her's a line  of some really, really, really, really long text, just to see how it is handled and  to find out how it overflows;*/</p>
+<span class="textcolor">
+    .post-tittle { <br />
+       margin: 0 0 5px;<br />
+       font-weight: bold;<br />
+      font-size: 38px;<br />
+      line-height: 1.2;<br/>
+      /* and her's a line  of some really, really, really, really long text, just to see how it is handled and  to find out how it overflows;*/
      <br />
     }
-   </div>
+</span>
 <br />
 <h4>Emphasize Tag</h4>
 <br />
@@ -179,10 +155,8 @@
 <h4>Horizontal Rule Tag</h4>
 <br />
 <div class="borde">
-<p> This sentence is following &lthr /&gt tag. </p>
+<p> This sentence is following &lt;hr /&gt; tag. </p>
 </div>
-</div>
-<body>
-    
+</div>    
 </body>
 </html>
